@@ -50,6 +50,17 @@ conda activate squeezemeta
 - Taxonomic profiles: In `output/project.taxa.txt`.
 - Functional profiles: KEGG/COG in `output/project.functions.txt`.
 - For visualization: Use R or Python (e.g., load tables into pandas for plots).
+## Visualizations
+This project includes basic visualizations using Python (pandas/matplotlib). After running the pipeline:
+
+1. Install dependencies: `conda install pandas matplotlib`
+2. Run: `python visualize.py`
+   - Outputs: PNG plots in `plots/` (e.g., top taxa bar chart, functional pie chart).
+
+For advanced visuals:
+- Use SqueezeMeta's `sqm2html.pl output/project` for HTML reports.
+- Install SQMtools (R package): `install.packages("devtools"); devtools::install_github("jtamames/SQMtools")`
+- Load and plot: In R, `SQM = loadSQM("output/project"); plotTaxa(SQM)`
 
 ## Citation
 - SqueezeMeta: Puente-Sánchez et al. (2020). *Microbial Biotechnology*.
