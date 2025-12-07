@@ -1,0 +1,7 @@
+# Tab-delimited: sample\tforward-reads\treverse-reads\tpair-type
+# Since single-end, leave reverse blank; pair-type=se for single-end
+sample1	raw_data/SRX17018966_1.fastq.gz		se
+sample2	raw_data/SRX17018967_1.fastq.gz		se
+sample3	raw_data/SRX17018968_1.fastq.gz		se
+sample4	raw_data/SRX17018969_1.fastq.gz		se
+sample5	raw_data/SRX17018970_1.fastq.gz		se
